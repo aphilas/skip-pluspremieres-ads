@@ -1,0 +1,15 @@
+{
+  "version": "0.1", 
+  "manifest_version": 2,
+  "name": "Skip PlusPremieres LinkShrink Ad", 
+  "description": "Skips Plus Premieres Link Shrink Ad",  
+  "author": "Neville Omangi",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.pluspremieres.eu/*"
+      ],
+      "js": ["script.js"]
+    }
+  ]
+}
